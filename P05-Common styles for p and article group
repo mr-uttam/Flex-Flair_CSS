@@ -1,0 +1,13 @@
+/* Common styles for p and article group */
+p, article{
+    width: 500px;             /* Width set to 500 pixels */
+    background-color: brown;  /* Background color set to brown */
+    color: darkblue;          /* Text color set to dark blue */
+}
+
+/* Styles for h1 elements */
+h1{
+    text-align: center;       /* Text alignment set to center */
+    color: darkcyan;          /* Text color set to dark cyan */
+    size: 0cqmin;             /* Invalid property, assuming you meant font-size */
+}
