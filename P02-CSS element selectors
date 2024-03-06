@@ -1,0 +1,12 @@
+/* CSS element selectors */
+/* Styles for all paragraphs */
+p{
+    color: aqua;             /* Text color set to aqua */
+    background-color: black; /* Background color set to black */
+}
+
+/* Styles for all articles */
+article{
+    color: aqua;             /* Text color set to aqua */
+    background-color: black; /* Background color set to black */
+}
