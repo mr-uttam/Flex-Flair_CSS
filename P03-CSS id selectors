@@ -1,0 +1,13 @@
+/* CSS id selectors */
+/* Styles for the element with id "article1" */
+
+#article1{
+    color: aqua;             /* Text color set to aqua */
+    background-color: black; /* Background color set to black */
+}
+
+/* Styles for the element with id "mark1" */
+#mark1{
+    color: aqua;             /* Text color set to aqua */
+    background-color: black; /* Background color set to black */
+}
