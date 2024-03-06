@@ -1,0 +1,14 @@
+/* Styles for elements with class abcde1 */
+.abcde1{
+    color: chartreuse;       /* Text color set to chartreuse */
+    background-color: black; /* Background color set to black */
+    text-align: left;        /* Text alignment set to left */
+}
+
+/* Styles for h1 elements */
+h1{
+    text-align: center;      /* Text alignment set to center */
+    color: green;            /* Text color set to green */
+    size: 0ch;               /* Invalid property, assuming you meant font-size */
+    font-variant: initial;   /* Initial font variant */
+}
