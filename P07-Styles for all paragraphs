@@ -1,0 +1,10 @@
+/* Styles for all paragraphs */
+p{
+    width: 600px;               /* Width set to 600 pixels */
+    border: 5px solid black;    /* 5px solid black border */
+    padding: 20px;              /* 20px padding inside the element */
+    margin: 50px;               /* 50px margin around the element */
+    background-color: chartreuse; /* Background color set to chartreuse */
+    color: crimson;             /* Text color set to crimson */
+    font-size: 20px;            /* Font size set to 20 pixels */
+}
