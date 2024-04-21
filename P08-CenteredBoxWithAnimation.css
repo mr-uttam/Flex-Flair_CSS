@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Styling for container */
+        .container {
+            height: 1200px;
+            width: 1200px;
+            border: 1px solid black;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for box */
+        .box {
+            height: 500px;
+            width: 500px;
+            border: 1px solid brown;
+            background-color: rgb(149, 182, 91);
+            padding: 20px;
+            box-shadow: 10px 8px 10px black; /* Modified box shadow */
+            transition: transform 0.3s ease-in-out; /* Added transition */
+        }
+
+        /* Styling for image inside box */
+        img {
+            height: 250px;
+            width: 250px;
+            float: right;
+        }
+
+        /* Animation on hover */
+        .box:hover {
+            transform: scale(1.1); /* Scale the box on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="city.jpg" alt="City Image"> <!-- Added alt attribute for image -->
+            <h1>WELCOME TO THIS WEBSITE</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam ipsum, facilis magnam tenetur sed voluptates sunt quis consequatur
+                esse fugit quisquam mollitia molestias recusandae sapiente a nam nisi optio
+                dolores aspernatur eum? Molestias voluptatum quis velit ipsam maiores.
+                Minima iusto, quos sit laboriosam optio cum officiis ex cumque veniam
+                tenetur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+                libero ad sequi iste provident accusantium laudantium necessitatibus ut id
+                unde tempore, animi voluptatibus assumenda molestias blanditiis esse veniam
+                amet dicta et incidunt. Nobis eveniet, adipisci ducimus amet aspernatur odit
+                sed beatae, tenetur repellendus praesentium minus natus fugiat, officia
+                voluptatum a.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
