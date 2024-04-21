@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Styling for the container element */
+        .container {
+            height: 600px;
+            width: 600px;
+            border: 50px dashed green;
+            border-radius: 600px;
+            background-color: black;
+            position: relative; /* Relative positioning for absolute children */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            animation-name: rotation; /* Apply rotation animation */
+            animation-duration: 5s; /* Duration of rotation animation */
+            animation-delay: 2s; /* Delay before animation starts */
+            animation-iteration-count: infinite; /* Animation repeats infinitely */
+            animation-timing-function: linear; /* Linear timing for animation */
+            transform-origin: center center; /* Set rotation origin to center */
+        }
+        
+        /* Styling for the middle box element */
+        .box {
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            border: 50px dashed green;
+            border-radius: 300px;
+            position: absolute; /* Absolute positioning within container */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: rotation; /* Apply rotation animation */
+            animation-duration: 10s; /* Duration of rotation animation */
+            animation-delay: 2s; /* Delay before animation starts */
+            animation-iteration-count: infinite; /* Animation repeats infinitely */
+            animation-timing-function: linear; /* Linear timing for animation */
+            transform-origin: center center; /* Set rotation origin to center */
+        }
+        
+        /* Styling for the small box element */
+        .smbox {
+            height: 50px;
+            width: 50px;
+            background-color: black;
+            border: 50px dashed green;
+            border-radius: 300px;
+            position: absolute; /* Absolute positioning within container */
+            animation-name: rotation; /* Apply rotation animation */
+            animation-duration: 8s; /* Duration of rotation animation */
+            animation-delay: 2s; /* Delay before animation starts */
+            animation-iteration-count: infinite; /* Animation repeats infinitely */
+            animation-timing-function: linear; /* Linear timing for animation */
+            transform-origin: center center; /* Set rotation origin to center */
+        }
+        
+        /* Keyframes for rotation animation */
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg); /* Start rotation from 0 degrees */
+                border-color: blue; /* Initial border color */
+            }
+            to {
+                transform: rotate(360deg); /* Rotate to 360 degrees (full circle) */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Main container with nested rotating boxes -->
+    <div class="container">
+        <div class="box">
+            <div class="smbox"></div> <!-- Small box inside middle box -->
+        </div>
+    </div>
+</body>
+</html>
