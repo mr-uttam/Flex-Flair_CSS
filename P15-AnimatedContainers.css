@@ -1,0 +1,120 @@
+/* Reset default padding and margin */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Centering the content vertically and horizontally */
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the main container */
+#box {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling for container elements */
+.container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+/* Container 1 */
+.container1 {
+    transform: 1s; /* This seems incorrect, perhaps intended for transition-duration */
+    background-color: darkslategray;
+}
+
+/* Hover effect for container 1 */
+.container1:hover {
+    background-color: red;
+    animation-name: rotation1; /* Use different animation name to avoid conflicts */
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* Keyframes for rotation animation for container 1 */
+@keyframes rotation1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Container 2 */
+.container2 {
+    transform: rotate(45deg);
+    transform: 1s; /* This seems incorrect, perhaps intended for transition-duration */
+    background-color: darkslategray;
+}
+
+/* Hover effect for container 2 */
+.container2:hover {
+    background-color: green;
+    animation-name: rotation2; /* Use different animation name to avoid conflicts */
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* Keyframes for rotation animation for container 2 */
+@keyframes rotation2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Container 3 */
+.container3 {
+    border: 5px dashed black;
+    border-radius: 50%;
+    transform: 1s; /* This seems incorrect, perhaps intended for transition-duration */
+    background-color: darkslategray;
+}
+
+/* Hover effect for container 3 */
+.container3:hover {
+    background-color: blue;
+    animation-name: rotation3; /* Use different animation name to avoid conflicts */
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* Keyframes for rotation animation for container 3 */
+@keyframes rotation3 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Additional styling for heading */
+.heading {
+    transform: rotate(-45deg);
+}
