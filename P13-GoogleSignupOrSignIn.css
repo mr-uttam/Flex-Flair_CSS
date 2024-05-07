@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign Up or Sign In</title>
+    <style>
+        /* Styles for the form container */
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Styles for the main heading */
+        h1 {
+            font-size: 50px;
+        }
+
+        /* Styles for the additional information paragraph */
+        p {
+            font-size: 15px;
+        }
+
+        /* Styles for the form container heading */
+        #heading {
+            height: 150px;
+        }
+
+        /* Styles for the form */
+        .form {
+            height: 500px;
+            width: 400px;
+            box-shadow: 15px 15px 30px black;
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            padding: 20px;
+        }
+
+        /* Styles for the email input */
+        #email {
+            height: 50px;
+            width: 400px;
+            border-color: blue;
+            box-shadow: 2px 2px 3px blue;
+            border-radius: 5px;
+        }
+
+        /* Styles for the sign-in or sign-up button */
+        .button1 {
+            border-radius: 5px;
+            background-color: rgb(73, 73, 187);
+            color: white;
+            height: 50px;
+            width: 404px;
+        }
+
+        /* Hover styles for the button */
+        .button1:hover {
+            background-color: blue;
+            color: white;
+            height: 50px;
+            width: 404px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container for centering the form -->
+    <div class="container">
+        <!-- Form for entering email and signing in or signing up -->
+        <div class="form">
+            <!-- Heading section of the form -->
+            <div id="heading">
+                <!-- Main heading -->
+                <h1>Enter your email</h1>
+                <!-- Additional information paragraph -->
+                <p>Continue to about Uttam</p>
+            </div>
+            <!-- Email input field -->
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <br>
+            <!-- Button for signing in or signing up -->
+            <div>
+                <button class="button1" type="button">Sign in or sign up</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
