@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog page</title>
+   <link rel="stylesheet" href="blogstyle.css">
+</head>
+<body class="body_container">
+
+    <div class="container">
+        <header class="header_container">
+            <h2 class="header_title">Uttam's Blog</h2>
+        <p class="header_desc">Utilize this space to incorporate a captivating subheading crafted by CHAT GPT, adding depth and intrigue to your vlog</p>
+        </header>
+    </div>
+
+        <main class="main_container">
+            <div class="card_container">
+                    <a href="#" class="card_image_container">
+                        <img src="technology.jpg" class="card_image" loading="lazy">
+                    </a>
+                   <div class="card_title_container">
+                    <a href="#" class="card_title_anchor">
+                        <h2 class="card_title">New Gadgets Relased</h2>
+                    </a>
+                    <p class="card_disc">
+                        Check out the latest tech gadgets hitting the markets, from smartphones to smartwatches.  
+                    </p>
+                   </div>
+                   <div class="card_footer_container">
+
+                     <div class="author_container">
+                        <div class="author_avatar_container">
+                            <img src="avatar1.webp"
+                             alt="avatar1" class="author_avatar" loading="lazy">
+                        </div>
+                        <div class="author_info_container">
+                            <span>
+                                John Doe
+                            </span>
+                            <span>
+                                Sept 19 , 2021
+                            </span>
+                        </div>
+                     </div>
+
+                     <div class="card_tag_container">
+                        <span>Technology</span>
+                     </div>
+                   </div>
+            </div>
+
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="Travel.jpeg" class="card_image" loading="lazy">
+                </a>
+               <div class="card_title_container">
+                <a href="#" class="card_title_anchor">
+                    <h2 class="card_title">Travel Bucket List</h2>
+                </a>
+                <p class="card_disc">
+                    Explore Breathtaking destinations and add them to your travel bucket list for an unforgattable advanture. 
+                </p>
+               </div>
+               <div class="card_footer_container">
+
+                 <div class="author_container">
+                    <div class="author_avatar_container">
+                        <img src="Avatar2.jpg"
+                         alt="avatar2" class="author_avatar" loading="lazy">
+                    </div>
+                    <div class="author_info_container">
+                        <span>
+                            David Johnson
+                        </span>
+                        <span>
+                            June 28 , 2021
+                        </span>
+                    </div>
+                 </div>
+
+                 <div class="card_tag_container">
+                    <span>Travel</span>
+                 </div>
+               </div>
+            </div>
+
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="Nutrition.jpg" class="card_image" loading="lazy">
+                </a>
+               <div class="card_title_container">
+                <a href="#" class="card_title_anchor">
+                    <h2 class="card_title">Healty Eating Tips</h2>
+                </a>
+                <p class="card_disc">
+                    Discover simple tips for maintaining the healty diet and making nutritious food choice. 
+                </p>
+               </div>
+               <div class="card_footer_container">
+
+                 <div class="author_container">
+                    <div class="author_avatar_container">
+                        <img src="avatar3.jpeg"
+                         alt="avatar1" class="author_avatar" loading="lazy">
+                    </div>
+                    <div class="author_info_container">
+                        <span>
+                            Emily Smith
+                        </span>
+                        <span>
+                            Aug 5 , 2021
+                        </span>
+                    </div>
+                 </div>
+
+                 <div class="card_tag_container">
+                    <span>Nutrition</span>
+                 </div>
+               </div>
+            </div>
+
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="productivity.jpg" class="card_image" loading="lazy">
+                </a>
+               <div class="card_title_container">
+                <a href="#" class="card_title_anchor">
+                    <h2 class="card_title">Effictive Time Managment</h2>
+                </a>
+                <p class="card_disc">
+                    Learn time managment technique to boost productivity and balance work and personal life.  
+                </p>
+               </div>
+               <div class="card_footer_container">
+
+                 <div class="author_container">
+                    <div class="author_avatar_container">
+                        <img src="avatar4.jpeg"
+                         alt="avatar1" class="author_avatar" loading="lazy">
+                    </div>
+                    <div class="author_info_container">
+                        <span>
+                            Sarah Wilson
+                        </span>
+                        <span>
+                            Sept 12 , 2021
+                        </span>
+                    </div>
+                 </div>
+
+                 <div class="card_tag_container">
+                    <span>Productivity</span>
+                 </div>
+               </div>
+            </div>
+
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="market.webp" class="card_image" loading="lazy">
+                </a>
+               <div class="card_title_container">
+                <a href="#" class="card_title_anchor">
+                    <h2 class="card_title">Market Strategies</h2>
+                </a>
+                <p class="card_disc">
+                    Complete thorough keyword research to find topics with medium to low competition and a healthy number.
+                </p>
+               </div>
+               <div class="card_footer_container">
+
+                 <div class="author_container">
+                    <div class="author_avatar_container">
+                        <img src="avatar5.jpg"
+                         alt="avatar1" class="author_avatar" loading="lazy">
+                    </div>
+                    <div class="author_info_container">
+                        <span>
+                            Suraj Kumar
+                        </span>
+                        <span>
+                            Nov 20 , 2023
+                        </span>
+                    </div>
+                 </div>
+
+                 <div class="card_tag_container">
+                    <span>Marketing</span>
+                 </div>
+               </div>
+            </div>
+
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="Trading.webp" class="card_image" loading="lazy">
+                </a>
+               <div class="card_title_container">
+                <a href="#" class="card_title_anchor">
+                    <h2 class="card_title">Trading Journey</h2>
+                </a>
+                <p class="card_disc">
+                    Speaking on outlook for Nifty today,Technical Research Analyst Nifty continues to be weak.
+                </p>
+               </div>
+               <div class="card_footer_container">
+
+                 <div class="author_container">
+                    <div class="author_avatar_container">
+                        <img src="avatar 6.jpg"
+                         alt="avatar1" class="author_avatar" loading="lazy">
+                    </div>
+                    <div class="author_info_container">
+                        <span>
+                            Uttam Pal
+                        </span>
+                        <span>
+                            Apr 17 , 2024
+                        </span>
+                    </div>
+                 </div>
+
+                 <div class="card_tag_container">
+                    <span>Trading</span>
+                 </div>
+               </div>
+            </div>
+
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="google.png" class="card_image" loading="lazy">
+                </a>
+               <div class="card_title_container">
+                <a href="#" class="card_title_anchor">
+                    <h2 class="card_title">Google Analytics</h2>
+                </a>
+                <p class="card_disc">
+                    If you’re a business looking to improve your marketing analytics, there are plenty of avenues to venture down.                </p>
+               </div>
+               <div class="card_footer_container">
+
+                 <div class="author_container">
+                    <div class="author_avatar_container">
+                        <img src="avatar7.jpeg"
+                         alt="avatar1" class="author_avatar" loading="lazy">
+                    </div>
+                    <div class="author_info_container">
+                        <span>
+                            Osmit Smith
+                        </span>
+                        <span>
+                            Jun 7 , 2023
+                        </span>
+                    </div>
+                 </div>
+
+                 <div class="card_tag_container">
+                    <span>Analytics</span>
+                 </div>
+               </div>
+            </div>
+
+            <div class="card_container">
+                <a href="#" class="card_image_container">
+                    <img src="sport.jpg" class="card_image" loading="lazy">
+                </a>
+               <div class="card_title_container">
+                <a href="#" class="card_title_anchor">
+                    <h2 class="card_title">Sports News</h2>
+                </a>
+                <p class="card_disc">
+                    It is one of the booming economies in Asia and is accomplished in various fields of sport.</p>
+               </div>
+               <div class="card_footer_container">
+
+                 <div class="author_container">
+                    <div class="author_avatar_container">
+                        <img src="avatar8.jpg"
+                         alt="avatar1" class="author_avatar" loading="lazy">
+                    </div>
+                    <div class="author_info_container">
+                        <span>
+                            Sourav Ganguli
+                        </span>
+                        <span>
+                            Oct 7 , 2022
+                        </span>
+                    </div>
+                 </div>
+
+                 <div class="card_tag_container">
+                    <span>Sports</span>
+                 </div>
+               </div>
+            </div>
+        </main>
+</body>
+</html>
