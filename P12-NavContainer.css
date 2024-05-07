@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navcontainer">
+            <nav>
+                <ul id="navlist">
+                    <li>
+                        <h1>ABOUT UTTAM</h1>
+                    </li>
+                    <li>
+                        <div class="list">
+                            <a href="http://127.0.0.1:5500/garhbeta.html/grid.html">home</a>
+                            <a href="http://127.0.0.1:5500/garhbeta.html/signup.html">sign up</a>
+                            <a href="http://127.0.0.1:5500/second.html">More</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
